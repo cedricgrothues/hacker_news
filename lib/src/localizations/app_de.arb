@@ -1,0 +1,8 @@
+{
+    "appTitle": "HackerNews",
+    "feedLoadingError": "Oh nein! Der News Feed konnte nicht geladen werden!",
+    "itemLoadingError": "Oh nein! Dieser Artikel konnte nicht geladen werden!",
+    "deleted": "[gelöscht]",
+    "commentCount": "{count,plural, =0{Keine Kommentare}=1{1 Kommentar}other{{count} Kommentare}}",
+    "untitled": "Ohne Titel"
+}

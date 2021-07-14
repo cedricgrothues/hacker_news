@@ -1,0 +1,32 @@
+{
+    "appTitle": "HackerNews",
+    "@appTitle": {
+        "description": "A one-line description used by the device to identify the app for the user."
+    },
+    "feedLoadingError": "Oh no! We could not load the news feed!",
+    "@feedLoadingError": {
+        "description": "A short message shown if loading the feed fails."
+    },
+    "itemLoadingError": "Oh no! We could not load the item!",
+    "@itemLoadingError": {
+        "description": "A short message shown if loading an item fails."
+    },
+    "deleted": "[deleted]",
+    "@deleted": {
+        "description": "The content of a deleted item."
+    },
+    "commentCount": "{count,plural, =0{No comments}=1{1 comment}other{{count} comments}}",
+    "@commentCount": {
+        "description": "The number of comments.",
+        "placeholders": {
+            "count": {
+                "type": "Int",
+                "example": "123"
+            }
+        }
+    },
+    "untitled": "Untitled",
+    "@untitled": {
+        "description": "Shown if the title of an item is null"
+    }
+}
