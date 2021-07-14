@@ -59,7 +59,7 @@ class StoriesRepository {
         ),
       );
 
-  /// Returns the user with the given `id`.
+  /// Returns the user with the given [id].
   Future<User> user(String id) => _userCache.putIfAbsent(
         id,
         () => _client.get(Uri.https(_authority, '/v0/user/$id.json')).then(
